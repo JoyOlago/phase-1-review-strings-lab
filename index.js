@@ -7,5 +7,5 @@ let excitedWelcomeMessage = 'WELCOME TO FLATBOOK, JOY O!'
 
 
 let shortGreeting = 'Welcome, J!'
-const firstInitial = currentUser (J) ;
-const restOfName = currentUser (oy)
+const firstInitial = currentUser.slice(0) ;
+const restOfName = currentUser.slice(1)
